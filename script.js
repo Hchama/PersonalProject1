@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 const clickMeBtn = document.querySelector(".click-me-btn")
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "LETS GOOOO!!! See ya on April 13";
+  question.innerHTML = "LETS GOOOO!!!";
   gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXl6cmRyOXZua3NwNm9vNXp3Z2E0Yng3ZHk2czRuazgyZ3J5MWN6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uqcogp0CQvOKc/giphy.gif";
   
   yesBtn.style.display = "none";
